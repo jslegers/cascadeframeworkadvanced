@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Cascade Premium Dashboard</title>
+        <link rel="stylesheet" type="text/css" media="all"  href="assets/css/cascade/production/build-full.min.css" />
+        <link rel="stylesheet" type="text/css" media="all"  href="assets/css/jquery.ui/styles.css" />
+        <link rel="stylesheet" type="text/css" media="all"  href="assets/css/site.css" />
+    </head>
+    <body>
+        <div class="site-header-fixture">
+            <div class="site-header">
+                <div class="col">
+                    <div class="cell">
+                        <h2>Cascade Framework Advanced</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="site-header-ghost">
+                <div class="col">
+                    <div class="cell">
+                        <h2>Cascade Framework Advanced</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="midsection site-body">
+            <div class="col sidebar">
+                <ul class="nav tree">
+                    <li><a href="index.html"><span class="icon icon-home"></span> Home</a>
+                    </li>
+                    <li class="collapsible collapsed"><a class="collapse-trigger" href="#"><span class="icon icon-cog"></span> Components</a>
+                        <ul class="collapse-section">
+                            <li><a href="accordion.html" class="">Accordion</a></li>
+                            <li><a href="autocomplete.html" class="">Autocomplete</a></li>
+                            <li><a href="button.html" class="">Button</a></li>
+                            <li><a href="datepicker.html" class="">Datepicker</a></li>
+                            <li><a href="dialog.html" class="">Dialog</a></li>
+                            <li><a href="menu.html" class="">Menu</a></li>
+                            <li><a href="progressbar.html" class="">Progress bar</a></li>
+                            <li><a href="slider.html" class="">Slider</a></li>
+                            <li><a href="spinner.html" class="">Spinner</a></li>
+                            <li><a href="tooltip.html" class="">Tooltip</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="dashboard.html"><span class="icon icon-dashboard"></span> Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col main dashboard width-fill">
+                <div class="cell">
+                    <div class="column col width-1of2">
+
+
+                        <div class="col">
+                            <div class="cell collapsible panel">
+                                <div class="header collapse-trigger">
+                                    <span class="icon icon-collapse"></span>
+                                    <a href="#">
+                                        <span class="collapsed-only">Show</span>
+                                        <span class="uncollapsed-only">Hide</span> panel
+                                    </a>
+                                </div>
+                                <div class="body collapse-section">
+                                    <div class="cell">
+                                        <div id="flot-demo"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="column col width-fill">
+
+
+
+                        <div class="col">
+                            <div class="panel cell collapsible tab-block">
+                                <div class="header collapse-trigger">
+                                    <span class="icon icon-collapse"></span>
+                                    <a href="#">
+                                        <span class="collapsed-only">Show</span>
+                                        <span class="uncollapsed-only">Hide</span> panel
+                                    </a>
+                                </div>
+                                <div class="body collapse-section top-nav">
+                                    <div class="tabs">
+                                        <ul class="nav">
+                                            <li class="active"><a href="#tabcontent33">Gallery</a></li>
+                                            <li><a href="#tabcontent34">Form</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-content">
+                                        <div class="menu cell" id="tabcontent33">
+                                            <ul class="stat left nav">
+                                                <li class="active-item"><a href="#" class=""><span class="data">1,234</span>donuts</a></li>
+                                                <li class=""><a href="#" class=""><span class="data">567</span>kayaks</a></li>
+                                                <li class=""><a href="#" class=""><span class="data">23,456</span>kittens</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cell hidden-tab" id="tabcontent34">
+                                            <form>
+                                                <div class="col">
+                                                    <div class="col width-1of4">
+                                                        <div class="cell">
+                                                            <label for="firstname">First name</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col width-fill">
+                                                        <div class="cell">
+                                                            <input type="text" id="firstname" placeholder="Your first name" class="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="col width-1of4">
+                                                        <div class="cell">
+                                                            <label for="lastname">Last name</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col width-fill">
+                                                        <div class="cell">
+                                                            <input type="text" id="lastname" placeholder="Your last name" class="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="col width-1of4">
+                                                        <div class="cell">
+                                                            <label for="country">Country</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col width-fill">
+                                                        <div class="cell">
+                                                            <select id="country">
+                                                                <option>Canada</option>
+                                                                <option>Mexico</option>
+                                                                <option>USA</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="col width-1of4">
+                                                        <div class="cell">
+                                                            <label for="male">Gender</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col width-fill">
+                                                        <div class="cell">
+                                                            <input name="gender" id="male" type="radio" class="radio">
+                                                            <label for="male">Man</label>
+                                                            <input name="gender" id="female" type="radio" class="radio">
+                                                            <label for="female">Woman</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="col width-1of4">
+                                                        <div class="cell">
+                                                            <label for="occupation">Occupation</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col width-fill">
+                                                        <div class="cell">
+                                                            <input type="text" id="occupation" placeholder="Your occupation" class="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="col width-1of4">
+                                                        <div class="cell">
+                                                            <label for="webdev">Hobbies</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col width-fill">
+                                                        <div class="cell">
+                                                            <input name="hobbies" id="webdev" type="checkbox" class="checkbox">
+                                                            <label for="webdev">Web development</label>
+                                                            <input name="hobbies" id="design" type="checkbox" class="checkbox">
+                                                            <label for="design">Design</label>
+                                                            <input name="hobbies" id="programming" type="checkbox" class="checkbox">
+                                                            <label for="programming">Programming</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="col width-1of4">
+                                                        <div class="cell">
+                                                            <label for="comment">Comment</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col width-fill">
+                                                        <div class="cell">
+                                                            <textarea id="comment"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="col width-1of4">
+                                                    </div>
+                                                    <div class="col width-fill">
+                                                        <div class="cell">
+                                                            <button class="button">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col">
+                            <div class="cell collapsible panel">
+                                <div class="header collapse-trigger">
+                                    <span class="icon icon-collapse"></span>
+                                    <a href="#">
+                                        <span class="collapsed-only">Show</span>
+                                        <span class="uncollapsed-only">Hide</span> panel
+                                    </a>
+                                </div>
+                                <div class="body collapse-section">
+                                    <div class="cell">
+                                        <p>Try dragging and dropping these panels!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="cell collapsible panel">
+                                <div class="header collapse-trigger">
+                                    <span class="icon icon-collapse"></span>
+                                    <a href="#">
+                                        <span class="collapsed-only">Show</span>
+                                        <span class="uncollapsed-only">Hide</span> panel
+                                    </a>
+                                </div>
+                                <div class="body collapse-section">
+                                    <div class="cell">
+                                        <p>Try dragging and dropping these panels!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-footer">
+            <div class="cell">
+                2014 © John Slegers. 
+            </div>
+        </div>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

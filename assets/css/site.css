@@ -1,0 +1,166 @@
+.powered-by {
+    background:url('../img/powered-by.png');
+    width:150px;
+    height:56px;
+    float: left;
+}
+
+.copyrights {
+    float: right;
+}
+
+.column {
+    padding-bottom : 100px;
+}
+.ui-sortable-placeholder { border: 2px dashed #ccc; visibility: visible !important; }
+
+.ui-sortable-helper:hover {
+    opacity: 0.85;
+    -webkit-transform:scale(1.12);
+    -ms-transform:scale(1.12);
+    -o-transform:scale(1.12);
+    -moz-transform:scale(1.12);
+    transform:scale(1.12);
+}
+
+.ui-sortable-helper:hover .panel {
+    -webkit-box-shadow: 12px 12px 30px rgba(40,40,40, 0.25);
+    -moz-box-shadow:    12px 12px 30px rgba(40,40,40, 0.25);
+    box-shadow:         12px 12px 30px rgba(40,40,40, 0.25);
+}
+
+.sidebar {
+    width : 225px;
+}
+
+.sidebar ul {
+    margin: 0;
+}
+
+.sidebar a  {
+    border-top: 1px solid #5c5c5c;
+    padding: 10px 15px;
+}
+
+.sidebar a:hover  {
+    background : #222225;
+}
+
+.sidebar ul ul a  {
+    border: none;
+    padding: 5px 0px;
+    padding-left: 44px 
+}
+
+.sidebar ul ul a:hover  {
+    color : #bdbdbd;
+    background : #666;
+}
+
+.sidebar .active a {
+    background : #4e4e4e;
+}
+
+
+.midsection {
+    background : #3d3d3d;
+}
+
+.site-footer, .sidebar, .sidebar .active ul a {
+    background : none;
+}
+
+body, .site-footer, .site-header {
+    background: #282828;
+}
+
+.sidebar .icon {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.sidebar .collapsed>.collapse-trigger {
+    border-radius : 0;
+}
+
+.main {
+    background: #fff;
+}
+
+.expandheight .cell {
+    min-height: 400px;
+}
+
+.expandheight .cell .cell {
+    min-height: 0;
+}
+
+.expandheight .ui-icon {
+    text-align: left;
+}
+
+.equalizers {
+    width: 300px;
+}
+
+.dashboard {
+    background : #eee;
+}
+
+.site-footer, .sidebar a, .sidebar a:hover {
+    color: #fff;
+}
+
+#dialog-link {
+    padding: .4em 1em .4em 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+#dialog-link span.ui-icon {
+    margin: 0 5px 0 0;
+    position: absolute;
+}
+
+#icons {
+    margin: 0;
+    padding: 0;
+}
+#icons li {
+    margin: 2px;
+    position: relative;
+    padding: 4px 0;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+#icons span.ui-icon {
+    float: left;
+    margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+    position: absolute;
+}
+
+#progressbar .ui-progressbar-value {
+    background-color: #ccc;
+}
+
+.progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+p {
+    font-size: 120%;
+}
+
+
+
+
+
+
+

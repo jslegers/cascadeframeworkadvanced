@@ -1,0 +1,3 @@
+$( document ).tooltip({
+      track: true
+    });
