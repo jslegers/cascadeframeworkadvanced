@@ -165,8 +165,6 @@ window.App = (function(w, document) {
                 for (var i = 0; i < length; i++) {
                     dependency = arg.dependencies[i];
                     asset = App.asset[dependency];
-                    console.log(App.asset);
-                    console.log(dependency);
                     if (!asset.loaded) {
                         asset.loaded = true;
                         if (asset.path !== null) {
