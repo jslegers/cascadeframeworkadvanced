@@ -51,6 +51,9 @@ switch (App.docPathEnd) {
         break;
     default:
         App.docPathEndNoExtension = App.docPathEnd.substring(0, App.docPathEnd.indexOf('.'));
+        if(App.docPathEndNoExtension == '') {
+            App.docPathEndNoExtension = 'index';
+        }
         App.demofile = App.docPathEndNoExtension + '-demo';
 
         if (App.docPathEndNoExtension != 'index') {
